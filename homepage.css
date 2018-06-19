@@ -1,0 +1,467 @@
+:root{
+font-size: 25px;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+.parent{
+display: flex;
+flex-wrap: wrap;
+height:13vh;
+width:100%;
+opacity:0.8;
+background-color:tomato;
+position:relative;
+padding-bottom:2vw;
+border:2px solid black;
+
+}
+
+.parent > h1{
+
+font-size:35px;
+text-align: center;
+color:solid black
+margin:7vh;
+padding-left:35vw;
+padding-top: 2vw;
+}
+
+.child{
+
+width:100%;
+height:80vh;
+position:relative;
+background-image: url('flowers.jpg');
+border:2px solid black;
+}
+
+.child > img
+{
+    margin-left:auto;
+    margin-right:auto;
+    height:70vh;
+    padding-top:2vw;
+    display:block;
+}
+.about
+{
+    width:100%;
+    height:50vh;
+    padding-bottom: 3vw;
+border:2px solid black;
+background-color:pink;
+position:relative;
+
+}
+
+.button {
+    width:10vw;
+    
+    background-color: tomato;
+    border:2px solid black;
+    color: black;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size:30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.about > p
+{
+    margin:10vh;
+    font-size: 1rem;
+
+}
+
+
+.intrest
+{
+    width:100%;
+    background-color:slateblue ;
+    
+    border:2px solid black;
+    position:relative;
+    font-size: 16px; 
+    height:100vh;
+    padding-bottom: 3vw;
+    position:relative;
+
+}
+.button {
+    width:10vw;
+    background-color: tomato;
+    border:2px solid black;
+    color: black;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size:30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+.webdev
+{
+text-align:left;
+ height:30vh;
+
+}
+.webdev > p
+{
+    margin: 5vh;
+    padding-left:2vw;
+    padding-top:2vw;
+     font-size: 1rem; 
+     text-align:left;
+     color:black;
+}
+
+.image
+{
+
+height:20vh;
+padding-top:0;
+margin:2vh;
+width:100%;
+position:relative;
+padding-left:4vw;
+}
+.pics
+{
+width:20%;
+height:20vh;
+
+}
+
+ 
+.project
+{
+    height:70vh;
+    padding-bottom: 3vw;
+    width:100%;
+    background-color: violet;
+    border:2px solid black;
+    position:relative;
+
+}
+.button {
+    width:10vw;
+    background-color: tomato;
+    border:2px solid black;
+    color: black;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size:30px;
+    margin-top:2vh;
+    margin-left:2vh;
+    cursor: pointer;
+}
+.project > img
+{
+display:block;
+margin-left:auto;
+margin-right:auto;
+height:40vh;
+padding-top:2vw
+}
+.project > p
+{
+
+font-size: 22px;
+padding-left:32vw;
+margin:8vh;
+
+}
+.contact
+{
+    width:100%;
+    background-color: tomato;
+    border:2px solid black;
+    position:relative;
+    height:10vh;
+}
+.icon
+{
+    height:3vh;
+    margin:5vh;
+
+}
+
+
+@media only screen and (min-width: 760px) 
+
+{
+
+.parent{  
+    width:100%;
+    overflow: hidden;
+    padding-top:0vw;
+padding-bottom: 4vw;
+padding-left:5vw;
+}
+.parent > h1
+{
+  font-size: 1.8rem;
+   padding-left:28vw;  
+   padding-top:2vw;
+}
+.child{
+    width:100%;
+    overflow: hidden;
+}
+
+.child > img{
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    overflow: hidden;
+
+}
+.about{ 
+    width:100%;
+    font-size:30px;
+    overflow: hidden;
+
+}
+.button{
+    font-size:1.2rem;
+    width:12vw;
+
+}
+.about > p
+{
+    font-size:1rem;
+    overflow: hidden;
+
+}
+
+.project{
+    width:100%;
+   font-size:30px;
+   overflow: hidden;
+
+}
+.project > p
+{
+    font-size: 1rem;
+    padding-left: 20vw;
+    overflow: hidden;
+
+}
+.intrest{
+    width:100%;
+    overflow: hidden;
+height:120vh;
+   }
+
+   .webdev > p
+   {
+font-size: 1rem;
+color:solid black;
+text-indent: 160px;
+overflow: hidden;
+
+
+   }
+   .image{
+
+    width:100%;
+   }
+   .pics{
+    width:20%;
+    height:;
+   }
+.contact{ 
+    width:100%;
+}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 759px)
+
+{
+
+.parent{
+    width:100%;
+    height:20vh;
+border:1px solid black;
+}
+.parent > h1
+{
+    overflow:hidden;
+font-size:1.5rem;
+text-align: center;
+color:white;
+margin:5vh;
+padding-left:15vw;
+}
+
+.child{
+    width:100%;
+overflow:hidden;
+border:1px solid black;
+}
+
+.child>img{
+    width:50%;
+    padding-top:4vw;
+    overflow: hidden;
+
+}
+
+.about{
+    width:100%;
+    height:70vh;
+    font-size: 20px;
+    overflow: hidden;
+    border:1px solid black;
+}
+.button{
+    font-size:1.2rem;
+    width:20vw;
+    }
+.intrest{  
+    width:100%;
+overflow: hidden;
+border:1px solid black;
+
+}
+.project{
+    width:100%;
+overflow: hidden;
+border:1px solid black;
+}
+.project > p
+{
+font-size:27px;
+width:100%;
+padding-left:5vw;
+}
+
+.contact{
+width:100%;
+overflow: hidden;
+border:1px solid black;
+
+}
+
+
+}
+@media only screen and (max-width: 480px) 
+
+{
+
+.parent{
+    width:100%;
+    height:20vh;
+overflow:hidden;
+border:1px solid black;
+
+}
+.parent > h1
+{
+    margin:2vh;
+padding-left:10vw;
+padding-top:5vw;
+font-size: 40px;
+color:solid black;
+
+
+}
+.child{border:1px solid black;
+}
+.child>img{
+padding-top:6vw;
+    width:100%;
+    overflow: hidden;
+
+     }
+
+.about{
+width:100%;
+    height:70vh;
+    overflow: hidden;
+    border:1px solid black;
+
+}
+
+.button{
+    overflow:hidden;
+width:100%;
+font-size: 25px;
+margin:0;
+text-align: center;
+padding-left: 0;
+border:1px solid black;
+
+}
+.about > p
+{
+    margin:5vh;
+}
+
+.intrest{  
+    width:100%;
+overflow: hidden;
+border:1px solid black;
+height:180vh;
+}
+  .webdev > p
+   {
+font-size: 1rem;
+color:solid black;
+text-indent: 160px;
+overflow: hidden;
+
+
+   }
+   .image{
+    padding-top:32vw;
+    padding-left: 2vw;
+    width:100%;
+   }
+   .pics{
+    width:40%;
+    height:30vh;
+   }
+
+.project{
+    width:100%;
+overflow: hidden;
+border:1px solid black;
+}
+.project > img{
+padding-top:10vw;
+margin-right:auto;
+margin-left:auto;
+
+}
+.project > p{
+    padding-left:0vw;
+    margin-top:4vh;
+    font-size:1rem;
+    margin-left:2vh;
+}
+.contact{
+width:100%;
+overflow: hidden;
+border:1px solid black;
+
+}
+
+
+.icon{
+    overflow: hidden;
+    margin-bottom:2vh;
+    border:1px solid black;
+
+}
+
+}
